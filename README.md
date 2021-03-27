@@ -4,6 +4,8 @@
 
 Python code to crawl computer vision papers from top CV conferences. Currently it supports CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, SIGGRAPH. It leverages [selenium](https://www.selenium.dev/), a website testing framework to crawl the titles and pdf urls from the conference website, and download them one by one with some simple anti-anti-crawler tricks.
 
+Websites for older conferences are not guaranteed to be bug-free, since this project is based on newest website structure.
+
 ## Requirements
 ```
 pip install selenium, slugify
