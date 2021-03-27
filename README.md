@@ -41,5 +41,5 @@ Replace the url and the conference names with your choice.
 
 **Warnings**: This project is for learning purpose only. Do not crawl the same website frequently, which will burden the server.
 
-Welcome to submit a **pull request** if there is any bugs or you add support to other conferences!
+*Welcome to submit a **pull request** if there is any bugs or if you would like to add support to other conferences!*
 
