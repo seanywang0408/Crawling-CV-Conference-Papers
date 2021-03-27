@@ -33,7 +33,7 @@ iccv: https://openaccess.thecvf.com/ICCV2019 (ICCV 2019)
 icml: http://proceedings.mlr.press/v119/ (ICML 2020)
 neurips: https://papers.nips.cc/paper/2020 (NeurIPS 2020)
 iclr: https://openreview.net/group?id=ICLR.cc/2021/Conference (ICLR 2021)
-siggraph: https://dl.acm.org/toc/tog/2020/39/4 (SIGGRAPH 2021)
+siggraph: https://dl.acm.org/toc/tog/2020/39/4 (SIGGRAPH 2020)
 ```
 Replace the url and the conference names with your choice.
 
