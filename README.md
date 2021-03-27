@@ -23,6 +23,7 @@ root = './NeurIPS-2019-ALL' # file path to save the downloaded papers
 
 Here are some conference url examples:
 
+```
 cvpr: https://openaccess.thecvf.com/CVPR2020 (CVPR 2020)
 eccv: https://openaccess.thecvf.com/ECCV2018 (ECCV 2018) (changed in 2020)
 eccv: https://www.ecva.net/papers.php (ECCV 2020) 
@@ -31,7 +32,7 @@ icml: http://proceedings.mlr.press/v119/ (ICML 2020)
 neurips: https://papers.nips.cc/paper/2020 (NeurIPS 2020)
 iclr: https://openreview.net/group?id=ICLR.cc/2021/Conference (ICLR 2021)
 siggraph: https://dl.acm.org/toc/tog/2020/39/4 (SIGGRAPH 2021)
-
+```
 Replace the url and the conference names with your choice.
 
 ## Others
