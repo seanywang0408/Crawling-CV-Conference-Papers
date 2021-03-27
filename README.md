@@ -8,11 +8,11 @@ Python code to crawl computer vision papers from top CV conferences. Currently i
 ```
 pip install selenium, slugify
 ```
-Besides, downlowd [chromedriver.exe](https://chromedriver.chromium.org/downloads).
+Besides, downlowd [chromedriver.exe](https://chromedriver.chromium.org/downloads) from the link to any local path you favour.
 
 ## Usage
 
-To run the crawler, some paths need to be set up, including:
+To execute the crawler, you could run *download.py* or *download.ipynb* (Basically the same). Before the execution, some paths need to be set up, including:
 
 ```
 conference = 'neurips'
