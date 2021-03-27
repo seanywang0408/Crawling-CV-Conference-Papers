@@ -47,6 +47,6 @@ Replace the url and the conference names with your choice.
 
 ## Maintainer
 
-[Xiaoyang Huang](https://github.com/seanywang0408) 
-Email: huangxiaoyang@sjtu.edu.cn
+[`Xiaoyang Huang`](https://github.com/seanywang0408) 
+Email: `huangxiaoyang@sjtu.edu.cn`
 
