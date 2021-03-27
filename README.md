@@ -37,6 +37,8 @@ siggraph: https://dl.acm.org/toc/tog/2020/39/4 (SIGGRAPH 2021)
 ```
 Replace the url and the conference names with your choice.
 
+If you want to crawl papers from other conference website, all you need to do is to write a retrieve function like the ones in `retrieve_titles_urls_from_websites.py`, to parse html code and retrieve the paper titles and pdf urls into two lists. 
+
 ## Others
 
 **Warnings**: It is heard that crawling from conference websites might cause a banning of your IP (hasn't happened to me so far). Not sure of the risk. 
