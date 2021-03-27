@@ -45,3 +45,7 @@ Replace the url and the conference names with your choice.
 
 *Welcome to submit a **pull request** if there is any bugs or if you would like to add support to other conferences!*
 
+## Maintainer
+
+[Xiaoyang Huang](https://github.com/seanywang0408) huangxiaoyang@sjtu.edu.cn
+
