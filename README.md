@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Python code to crawl computer vision papers from top CV conferences. Currently it supports CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, SIGGRAPH. It leverages [selenium](https://www.selenium.dev/), a website testing framework to crawl the titles and pdf urls from the conference website, and download them one by one with some anti-anti-crawler tricks.
+Python code to crawl computer vision papers from top CV conferences. Currently it supports CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, SIGGRAPH. It leverages [selenium](https://www.selenium.dev/), a website testing framework to crawl the titles and pdf urls from the conference website, and download them one by one with some simple anti-anti-crawler tricks.
 
 ## Requirements
 ```
@@ -35,6 +35,10 @@ siggraph: https://dl.acm.org/toc/tog/2020/39/4 (SIGGRAPH 2021)
 Replace the url and the conference names with your choice.
 
 ## Others
-It is heard that crawling from conference websites might cause a banning of your IP (hasn't happened to me so far). Not sure of the risk. 
+
+**Warnings**: It is heard that crawling from conference websites might cause a banning of your IP (hasn't happened to me so far). Not sure of the risk. 
+
+**Warnings**: This project is for learning purpose only. Do not crawl the same website frequently, which will burden the server.
 
 Welcome to submit a **pull request** if there is any bugs or you add support to other conferences!
+
