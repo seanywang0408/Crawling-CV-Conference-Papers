@@ -2,7 +2,9 @@
 
 ## News
 
-***2021-6-21*** Support downloading all ***CVPR-2021*** papers in one script. Just set the file path you want to save papers in [download_cvpr2021.py](./download_cvpr2021.py) and run it. Don't forget to have your chrome driver ready (i.e., version corresponding to your Chrome browser)
+- ***2021-6-21*** Support ***CVPR-2021***
+
+Downloading all ***CVPR-2021*** papers in one script. Just set the file path you want to save papers in [download_cvpr2021.py](./download_cvpr2021.py) and run it. Don't forget to have your chrome driver ready (i.e., version corresponding to your Chrome browser)
 
 ![](./figs/cvpr2021_examples.png)
 
