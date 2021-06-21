@@ -33,9 +33,11 @@ iccv: https://openaccess.thecvf.com/ICCV2019 (ICCV 2019)
 icml: http://proceedings.mlr.press/v119/ (ICML 2020)
 neurips: https://papers.nips.cc/paper/2020 (NeurIPS 2020)
 iclr: https://openreview.net/group?id=ICLR.cc/2021/Conference (ICLR 2021)
-siggraph: https://dl.acm.org/toc/tog/2020/39/4 (SIGGRAPH 2021)
+siggraph: https://dl.acm.org/toc/tog/2020/39/4 (SIGGRAPH 2020)
 ```
 Replace the url and the conference names with your choice.
+
+If you want to crawl papers from other conference website, all you need to do is to write a retrieve function like the ones in `retrieve_titles_urls_from_websites.py`, to parse html code and retrieve the paper titles and pdf urls into two lists. 
 
 ## Others
 
@@ -44,4 +46,10 @@ Replace the url and the conference names with your choice.
 **Warnings**: This project is for learning purpose only. Do not crawl the same website frequently, which will burden the server.
 
 *Welcome to submit a **pull request** if there is any bugs or if you would like to add support to other conferences!*
+
+## Maintainer
+
+[`Xiaoyang Huang`](https://github.com/seanywang0408) 
+
+Email: `huangxiaoyang@sjtu.edu.cn`
 

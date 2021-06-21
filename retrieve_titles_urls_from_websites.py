@@ -1,7 +1,7 @@
 
 def retrieve_from_siggraph(driver):
     
-    elementllist =  driver.find_elements_by_class_name('toc__section')[1:8]
+    elementllist =  driver.find_elements_by_class_name('toc__section')[1:-2]
     for i, section in enumerate(elementllist):
         section.find_element_by_partial_link_text('SESSION').click()
         time.sleep(3)
