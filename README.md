@@ -18,6 +18,10 @@ Websites for older conferences are not guaranteed to be bug-free, since this pro
 
 ![](./figs/mendeley.jpg)
 
+Currently only single-thread downloading is implemented. Therefore the downloading for thousands of papers would be slow (takes several hours). It is suggested that you run the script before bed and it would be finished when you get to work again :)
+
+**Multi-thread downloading** will be coming soon!
+
 ## Requirements
 ```
 pip install selenium, slugify
