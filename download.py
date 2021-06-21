@@ -68,10 +68,13 @@ print('Start downloading')
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0'}
 for i, url in enumerate(pdfurllist):
     if url != None :      
-        print(i, '\t', pdfnamelist[i], '\t', pdfurllist[i])
-        data = requests.get(pdfurllist[i], timeout=80, headers=headers).content
-
         pdfname = slugify(pdfnamelist[i])
-        with open(root+'/'+pdfname+".pdf", 'wb')  as f:
-            f.write(data)  
-        _ = time.sleep(random.uniform(4,5)) # for anti-anti-crawler purpose                                            
+        if os.path.isfile(root+'/'+pdfname+".pdf"):
+            print('existed', i, '\t', pdfnamelist[i], '\t', pdfurllist[i])
+        else:
+            print(i, '\t', pdfnamelist[i], '\t', pdfurllist[i])
+            data = requests.get(pdfurllist[i], timeout=80, headers=headers).content
+            
+            with open(root+'/'+pdfname+".pdf", 'wb')  as f:
+                f.write(data)  
+            _ = time.sleep(random.uniform(4,5)) # for anti-anti-crawler purpose
