@@ -1,10 +1,20 @@
 # Crawling-CV-Conference-Papers
 
+## News
+
+***2021-6-21*** Support downloading all ***CVPR-2021*** papers in one script. Just set the file path you want to save papers in [download_cvpr2021.py](./download_cvpr2021.py) and run it. Don't forget to have your chrome driver ready (i.e., version corresponding to your Chrome browser)
+
+![](./figs/cvpr2021_examples.png)
+
 ## Introduction
 
 Python code to crawl computer vision papers from top CV conferences. Currently it supports CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, SIGGRAPH. It leverages [selenium](https://www.selenium.dev/), a website testing framework to crawl the titles and pdf urls from the conference website, and download them one by one with some simple anti-anti-crawler tricks.
 
 Websites for older conferences are not guaranteed to be bug-free, since this project is based on newest website structure.
+
+***Recommend to work with [Mendeley](https://www.mendeley.com/download-desktop-new/). You will get a juicy academic corpus.***
+
+![](./figs/mendeley.jpg)
 
 ## Requirements
 ```
