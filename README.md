@@ -2,6 +2,8 @@
 
 ## News
 
+- ***2021-6-22*** Support continuation of downloading from where the program encounters interruption. (prevent re-downloading from scratch)
+
 - ***2021-6-21*** Support ***CVPR-2021***
 
 Download all ***CVPR-2021*** papers in one click. Just set the local download directory in [download_cvpr2021.py](./download_cvpr2021.py) and run it! Don't forget to have your chrome driver ready (i.e., corresponding version to your Chrome browser)
