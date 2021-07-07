@@ -1,20 +1,40 @@
 
+# def retrieve_from_siggraph(driver):
+#     pdfurllist =  []
+#     pdfnamelist = []
+#     import time    
+#     elementllist =  driver.find_elements_by_class_name('toc__section')[1:-2]
+#     for i, section in enumerate(elementllist):
+#         section.find_element_by_partial_link_text('SESSION').click()
+#         time.sleep(3)
+#         # print(session_name)
+#         for j, paper_element in enumerate(section.find_elements_by_class_name('issue-item__content')):
+#             paper_name = paper_element.find_element_by_xpath('div/h5').text
+#             pdf_url = paper_element.find_element_by_class_name('red').get_attribute('href')
+
+#             pdfnamelist.append(paper_name)
+#             pdfurllist.append(pdf_url)
+
+#     return pdfurllist, pdfnamelist
+
+
 def retrieve_from_siggraph(driver):
-    
-    elementllist =  driver.find_elements_by_class_name('toc__section')[1:-2]
+    pdfurllist =  []
+    pdfnamelist = []
+    import time    
+    elementllist =  driver.find_elements_by_class_name('accordion-tabbed')[1].find_elements_by_class_name('toc__section')
     for i, section in enumerate(elementllist):
-        section.find_element_by_partial_link_text('SESSION').click()
+        section.click()
         time.sleep(3)
-        # print(session_name)
+        print('\n', section.text)
         for j, paper_element in enumerate(section.find_elements_by_class_name('issue-item__content')):
             paper_name = paper_element.find_element_by_xpath('div/h5').text
             pdf_url = paper_element.find_element_by_class_name('red').get_attribute('href')
-
+            print('\t', paper_name)
             pdfnamelist.append(paper_name)
             pdfurllist.append(pdf_url)
 
     return pdfurllist, pdfnamelist
-
 
 
 def retrieve_from_iclr(driver):
