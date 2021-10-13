@@ -2,6 +2,11 @@
 
 ## News
 
+
+- ***2021-10-13*** - Support ***ICCV-2021***
+
+Set the local download directory in [download_iccv2021.py](./download_iccv2021.py) and run it! Or you can directly download pdf files in my [OneDrive link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC).
+
 - ***2021-6-21*** - ***Important!*** Direct download [link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC) available!
 
 To lower the barriers for those who do not want to mess with code and git, the direct download [link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC) from OneDrive for recent CV/DL conference papers is provided! Click and check! (Though older conferences downloading still require mannually running the code)
