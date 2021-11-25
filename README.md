@@ -2,6 +2,9 @@
 
 ## News
 
+- ***2021-11-25*** - Support ***NeurIPS-2021***
+
+Set the local download directory in [download_neurips2021.py](./download_neurips2021.ipynb) and run it! Or you can directly download pdf files in my [OneDrive link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC).
 
 - ***2021-10-13*** - Support ***ICCV-2021***
 
