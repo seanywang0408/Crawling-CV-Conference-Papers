@@ -2,9 +2,16 @@
 
 ## News
 
+
+- ***2021-11-25*** - Support ***ICML-2021*** and ***SIGGRAPH-2021***
+
+Set the local download directory in [download.ipynb](./download.ipynb) and [download_siggraph.ipynb](./download_siggraph.ipynb), then run it! Or you can directly download pdf files in my [OneDrive link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC).
+
+Also I change from Chrome driver to Edge driver and fix the bugs in download_siggraph.ipynb.
+
 - ***2021-11-25*** - Support ***NeurIPS-2021***
 
-Set the local download directory in [download_neurips2021.py](./download_neurips2021.ipynb) and run it! Or you can directly download pdf files in my [OneDrive link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC).
+Set the local download directory in [download_neurips2021.ipynb](./download_neurips2021.ipynb) and run it! Or you can directly download pdf files in my [OneDrive link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC).
 
 - ***2021-10-13*** - Support ***ICCV-2021***
 
@@ -40,7 +47,7 @@ Currently only single-thread downloading is implemented. Therefore the downloadi
 ```
 pip install selenium, slugify
 ```
-Besides, downlowd [chromedriver.exe](https://chromedriver.chromium.org/downloads) from the link to any local path you favour.
+Besides, based on the browser you use (Chrome or Edge), downlowd [chromedriver.exe](https://chromedriver.chromium.org/downloads) or [edgedriver.exe](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) from the link to any local path you favour.
 
 ## Usage
 
