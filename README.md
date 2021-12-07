@@ -3,7 +3,7 @@
 ## News
 
 
-- ***2021-11-25*** - Support ***ICML-2021*** and ***SIGGRAPH-2021***
+- ***2021-12-07*** - Support ***ICML-2021*** and ***SIGGRAPH-2021***
 
 Set the local download directory in [download.ipynb](./download.ipynb) and [download_siggraph.ipynb](./download_siggraph.ipynb), then run it! Or you can directly download pdf files in my [OneDrive link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC).
 
