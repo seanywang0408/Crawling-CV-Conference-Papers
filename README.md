@@ -2,9 +2,12 @@
 
 ## News
 
+- ***2022-06-15*** - Include ***ICLR-2022***.
+
+To download ICLR-2022 papers, set the local download directory in [download.ipynb](./download.ipynb) or [multiprocess_download.py](./multiprocess_download.py), then run it! Or you can directly download pdf files in my [OneDrive link](https://1drv.ms/u/s!Ajsnj0gOimMfh4hoLbf317Dw_RrFTQ?e=TjKBhC).
 
 
-- ***2022-06-14*** - Support ***multi-process download***, increasing the speed by 10~ times. Include ***CVPR-2022***
+- ***2022-06-14*** - Support ***multi-process download***, increasing the speed by 10~ times. Include ***CVPR-2022***.
 
 To use the multiprocess downloading, run [multiprocess_download.py](./multiprocess_download.py). It has to be applied in an independent python script instead of a jupyter notebook. 
 
