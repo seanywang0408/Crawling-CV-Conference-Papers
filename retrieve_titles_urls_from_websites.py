@@ -114,3 +114,16 @@ def retrieve_from_cvpr(driver):
         driver.back()
         
     return pdfurllist, pdfnamelist
+
+def retrieve_from_cvpr2023(driver):
+    pdfurllist =  []
+    pdfnamelist = []
+
+    title_element_list = driver.find_elements_by_class_name('ptitle')
+    url_element_list = driver.find_elements_by_partial_link_text('pdf')
+    for i, element in enumerate(url_element_list): 
+
+        pdfnamelist.append(title_element_list[i].text)
+        pdfurllist.append(url_element_list[i].get_attribute('href'))
+        
+    return pdfurllist, pdfnamelist
